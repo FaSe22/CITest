@@ -11,8 +11,9 @@ func TestSum(t *testing.T){
 	}
 }
 
-func TestMultiply(t *testin.T){
+func TestMultiply(t *testing.T){
 	res := multiply(2,3)
 	if res != 6 {
 		t.Errorf("multiply was incorrect, got: %d want %d.", res, 6)
 	}
+}
