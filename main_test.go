@@ -17,3 +17,10 @@ func TestMultiply(t *testing.T){
 		t.Errorf("multiply was incorrect, got: %d want %d.", res, 6)
 	}
 }
+
+func TestDivide(t *testing.T){
+	res := divide(6,2)
+	if res !=3{
+	t.Errorf("divide was incorrect, got %d want %d.", res, 3)
+	}
+}
