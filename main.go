@@ -17,3 +17,16 @@ func multiply(a int, b int)int{
 func divide(a int, b int)int{
 	return a/b
 }
+
+
+func abc() int{
+return 1;
+}
+
+ func sabc() int{
+ return 1;
+  }
+
+   func xabc() int{
+  return 1;
+  }
